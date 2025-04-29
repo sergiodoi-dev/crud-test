@@ -67,7 +67,7 @@ crud-test/
 ### Steps
 
 ```bash
-git clone https://github.com/yourusername/crud-test.git
+git clone https://github.com/sergio-sdev/crud-test.git
 cd crud-test
 npm install
 cp .env.example .env  # Then configure Mongo URI
