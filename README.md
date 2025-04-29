@@ -1,10 +1,10 @@
-# 🧪 CRUD Test — Full Stack Developer Challenge
+# CRUD Test — Full Stack Developer Challenge
 
 This is a backend REST API project called **crud-test**. It implements a complete **Product CRUD service** using clean architecture, Node.js, MongoDB, and follows professional development practices.
 
 ---
 
-## 🛠️ Technologies
+## Technologies
 
 - **Node.js** with Express
 - **MongoDB** using Mongoose
@@ -15,7 +15,7 @@ This is a backend REST API project called **crud-test**. It implements a complet
 
 ---
 
-## 📦 Features
+## Features
 
 - Clean code architecture (Controller, Service, Repository)
 - RESTful API
@@ -30,7 +30,7 @@ This is a backend REST API project called **crud-test**. It implements a complet
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 crud-test/
@@ -57,7 +57,7 @@ crud-test/
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Requirements
 
@@ -78,7 +78,7 @@ npm run dev
 
 ---
 
-## 🧪 Testing the API
+## Testing the API
 
 ### Run server in development mode:
 
@@ -117,7 +117,7 @@ npm test
 
 ---
 
-## 🧠 Architecture Diagram
+## Architecture Diagram
 
 ```
 [Client] 
@@ -131,7 +131,7 @@ This project follows **Clean Architecture principles** using the **Repository Pa
 
 ---
 
-## ✨ Best Practices Applied
+## Best Practices Applied
 
 - ✅ Separation of concerns
 - ✅ Error handling middleware
@@ -143,7 +143,7 @@ This project follows **Clean Architecture principles** using the **Repository Pa
 
 ---
 
-## 🧪 Sample Test (Jest + Supertest)
+## Sample Test (Jest + Supertest)
 
 ```js
 it('should create a product', async () => {
@@ -154,18 +154,3 @@ it('should create a product', async () => {
   expect(res.body).toHaveProperty('_id');
 });
 ```
-
----
-
-## 📮 Contact
-
-**Created for a Full Stack Developer technical test**  
-Author: [Your Name]  
-Email: you@example.com  
-GitHub: [@yourusername](https://github.com/yourusername)
-
----
-
-## 📝 License
-
-MIT License
